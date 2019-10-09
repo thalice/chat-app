@@ -9,17 +9,20 @@ function App() {
         
         avatar="./images/emma.jpg"
         name="Emma Sanders"
+        status="true"
 
       />
       
       <Contact
         name="Dave Jenkins"
         avatar="./images/dave.jpg"
+        status=""
       />
 
       <Contact
         name="Eva Shaw"
         avatar="./images/eva.jpg"
+        status="true"
       />
      
     </div>
