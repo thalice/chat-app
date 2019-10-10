@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Contact from './components/Contact';
+import ContactList from './components/ContactList';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         avatar="./images/eva.jpg"
         status="true"
       />
+
+      <ContactList
+      />
      
     </div>
   );
@@ -32,3 +36,9 @@ function App() {
 
 
 export default App;
+
+
+
+
+
+

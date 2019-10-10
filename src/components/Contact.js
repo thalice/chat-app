@@ -14,7 +14,7 @@ import './Contact.css';
         <div class="status">
           <p>{props.name}</p>
           <span class = "status-text">{props.status ? "online":"offline"}</span>
-          <span class= {props.status ? "status-online":"status-offline"}>    </span> 
+          <span class= {props.status ? "status-online":"status-offline"}></span> 
         </div>
         
       </figure>
